@@ -3,10 +3,6 @@
     "description": "A utility which will help compose letters to dispute errors on your credit report based on the e-oscar codes.",
     "image": "apps/cra-dispute/icon.png",
     "download": {
-      "windows": "https://#",
-      "macos": "https://#",
-      "linux": "https://snapcraft.io/cra-dispute",
-      "android": "https://#",
-      "ios": "https://#"
+      "linux": "https://snapcraft.io/cra-dispute"
     }
 }
