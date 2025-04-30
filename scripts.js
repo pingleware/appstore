@@ -11,9 +11,7 @@ apps.forEach(app => {
     .then(data => {
       let download_links = "";
       const card = document.createElement("div");
-      data.download.forEach(download => {
-        console.log(download);
-      });
+      console.log(data);
       card.className = "app-card";
       card.innerHTML = `
         <img src="${data.image}" alt="${data.name}" width="100" />
