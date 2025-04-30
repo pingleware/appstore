@@ -1,7 +1,7 @@
 {
     "name": "Simple Commerce",
     "description": "A lightweight, open-source eCommerce framework that integrates Stripe for products, payments, and customer data, prioritizing security and simplicity.",
-    "image": "apps/simple-commerce/icon.png",
+    "image": "apps/simplecommerce/icon.png",
     "download": {
       "php": "https://github.com/pingleware/simplecommerce/releases/tag/v1.0.0"
     }
