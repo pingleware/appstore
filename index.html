@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>My App Store</title>
+  <title>PINGLEWARE App Store</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
     <img src="assets/logo.png" alt="Logo" />
-    <h1>My App Store</h1>
+    <h1>PINGLEWARE App Store</h1>
   </header>
 
   <main id="app-list">
@@ -17,9 +17,17 @@
   </main>
 
   <footer>
-    <p>&copy; 2025 My App Store</p>
+    <p id="footer">&copy; 2025 PINGLEWARE App Store</p>
   </footer>
 
   <script src="scripts.js"></script>
+  <script type="text/javascript">
+    window.onload = function() {
+      const year = new Date().getFullYear();
+      if (year > 2018) {
+        document.getElementById("footer").innerHTML = `&copy; 2018-${year} by <a href="https://presspage-entertainment.biz" target="_blank">PRESSPAGE ENTERTAINMENT INC</a> dba <a href="https://pingleware.presspage-entertainment.biz" target="_blank">PINGLEWARE</a>. All rights reserved.`;
+      }
+    }
+  </script>
 </body>
 </html>
