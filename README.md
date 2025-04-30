@@ -8,7 +8,7 @@ Creating an **app store on a GitHub Page** can be a great way to showcase and di
 1. Create a new GitHub repository (e.g., `my-app-store`).
 2. Enable GitHub Pages in the repo settings:
    - Go to **Settings > Pages**
-   - Source: `main` branch, root (or `/docs` folder if you prefer)
+   - Source: `main` branch, root (or `/my-app-store` sub-folder if you prefer)
    - Save
 
 ---
@@ -18,17 +18,18 @@ Creating an **app store on a GitHub Page** can be a great way to showcase and di
 Here’s a simple folder structure:
 
 ```
-my-app-store/
-├── index.html
-├── style.css
-├── apps/
-│   ├── app1/
-│   │   └── info.json
-│   ├── app2/
-│   │   └── info.json
-├── assets/
-│   └── logo.png
-└── scripts.js
+repo/
+├──my-app-store/
+├──-- index.html
+├──-- style.css
+├──-- apps/
+│   ├──-- app1/
+│   │   └──-- info.json
+│   ├──-- app2/
+│   │   └──-- info.json
+├──-- assets/
+│   └--── logo.png
+└──-- scripts.js
 ```
 
 ---
