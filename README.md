@@ -18,18 +18,17 @@ Creating an **app store on a GitHub Page** can be a great way to showcase and di
 Here’s a simple folder structure:
 
 ```
-repo/
-├──my-app-store/
-├──-- index.html
-├──-- style.css
-├──-- apps/
-│   ├──-- app1/
-│   │   └──-- info.json
-│   ├──-- app2/
-│   │   └──-- info.json
-├──-- assets/
-│   └--── logo.png
-└──-- scripts.js
+my-app-store/
+├── index.html
+├── style.css
+├── apps/
+│   ├── app1/
+│   │   └── info.json
+│   ├── app2/
+│   │   └── info.json
+├── assets/
+│   └-- logo.png
+└── scripts.js
 ```
 
 ---
