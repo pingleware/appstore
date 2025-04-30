@@ -2,5 +2,11 @@
     "name": "Credit Report Agency Dispute Assistant",
     "description": "A utility which will help compose letters to dispute errors on your credit report based on the e-oscar codes.",
     "image": "apps/cra-dispute/icon.png",
-    "download": "https://snapcraft.io/cra-dispute"
-  }
+    "download": {
+      "windows": "https://#",
+      "macos": "https://#",
+      "linux": "https://snapcraft.io/cra-dispute",
+      "android": "https://#",
+      "ios": "https://#"
+    }
+}
