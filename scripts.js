@@ -1,7 +1,8 @@
 const apps = [
   "administrative-assistant",
   "cra-dispute",
-  "simplecommerce"
+  "simplecommerce",
+  "robot-journalist"
 ]; // Add your app folder names here
 
 const appList = document.getElementById("app-list");
