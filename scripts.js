@@ -16,6 +16,8 @@ fetch('apps/categories.json')
         option.textContent = category;
         categorySelect.appendChild(option);
       });
+
+      populate(); // Populate apps on initial load
     }
 
     // Add event listener for category selection
@@ -111,5 +113,3 @@ function populate() {
     });
   });
 }
-
-populate();
