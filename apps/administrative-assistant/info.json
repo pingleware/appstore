@@ -4,5 +4,9 @@
     "image": "apps/administrative-assistant/icon.png",
     "download": {
         "linux": "https://snapcraft.io/administrative-assistant"
-    }
+    },
+    "categories": [
+        "Productivity",
+        "Business"
+    ]
   }

@@ -4,5 +4,10 @@
     "image": "apps/cra-dispute/icon.png",
     "download": {
       "linux": "https://snapcraft.io/cra-dispute"
-    }
+    },
+    "categories": [
+      "Finance",
+      "Lifestyle",
+      "Productivity"
+    ]
 }

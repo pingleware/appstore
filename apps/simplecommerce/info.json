@@ -4,5 +4,10 @@
     "image": "apps/simplecommerce/icon.png",
     "download": {
       "php": "https://github.com/pingleware/simplecommerce/releases/tag/v1.0.0"
-    }
+    },
+    "categories": [
+      "Shopping",
+      "Business",
+      "Finance"
+    ]
 }
