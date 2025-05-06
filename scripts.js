@@ -6,7 +6,7 @@ fetch('apps/categories.json')
   .then(res => res.json())
   .then(data => {
     categories = data;
-    const categorySelect = document.getElementById("category-select");
+    const categorySelect = document.getElementById("categories");
     
     if (categorySelect.options.length === 1) {
       // Populate category dropdown, if empty (contains only the default option)
