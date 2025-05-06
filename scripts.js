@@ -20,6 +20,7 @@ fetch('apps/categories.json')
 
     // Add event listener for category selection
     categorySelect.addEventListener("change", (event) => {
+      console.log(event);
       const selectedCategory = event.target.value;
       const appList = document.getElementById("app-list");
       appList.innerHTML = ""; // Clear current apps
