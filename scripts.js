@@ -7,14 +7,16 @@ fetch('apps/categories.json')
   .then(data => {
     categories = data;
     const categorySelect = document.getElementById("category-select");
-
-    // Populate category dropdown
-    categories.forEach(category => {
-      const option = document.createElement("option");
-      option.value = category;
-      option.textContent = category;
-      categorySelect.appendChild(option);
-    });
+    
+    if (categorySelect.options.length === 1) {
+      // Populate category dropdown, if empty (contains only the default option)
+      categories.forEach(category => {
+        const option = document.createElement("option");
+        option.value = category;
+        option.textContent = category;
+        categorySelect.appendChild(option);
+      });
+    }
 
     // Add event listener for category selection
     categorySelect.addEventListener("change", (event) => {
