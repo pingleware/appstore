@@ -63,7 +63,7 @@ fetch('apps/categories.json')
     });
   });
 
-/*
+
 fetch('apps/apps.json')
   .then(res => res.json())
   .then(data => {
@@ -106,4 +106,3 @@ fetch('apps/apps.json')
         });
     });
   });
-*/
