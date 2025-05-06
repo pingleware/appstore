@@ -2,7 +2,7 @@ let apps = [];
 
 let categories = [];
 
-fetch('apps/apps.json')
+fetch('apps/apps.json', { cache: "no-store" })
   .then(res => res.json())
   .then(data => {
     apps = data;
@@ -10,7 +10,7 @@ fetch('apps/apps.json')
     const appList = document.getElementById("app-list");
 
     apps.forEach((app, index) => {
-      fetch(`apps/${app}/info.json`)
+      fetch(`apps/${app}/info.json`, { cache: "no-store" })
         .then(res => res.json())
         .then(data => {
           let download_links = "";
