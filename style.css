@@ -16,6 +16,7 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1em;
     padding: 1em;
+    margin-bottom: 4em; /* Add spacing to prevent footer overlap */
   }
   
   .app-card {
