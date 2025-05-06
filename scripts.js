@@ -20,7 +20,6 @@ fetch('apps/categories.json')
 
     // Add event listener for category selection
     categorySelect.addEventListener("change", (event) => {
-      console.log(event);
       const selectedCategory = event.target.value;
       const appList = document.getElementById("app-list");
       appList.innerHTML = ""; // Clear current apps
@@ -29,7 +28,7 @@ fetch('apps/categories.json')
         fetch(`apps/${app}/info.json`)
           .then(res => res.json())
           .then(data => {
-            if (data.metadata.categories.includes(selectedCategory)) {
+            if (data.categories.includes(selectedCategory)) {
               let download_links = "";
               const card = document.createElement("div");
               const download_os = Object.keys(data.download);
