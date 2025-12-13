@@ -1,0 +1,16 @@
+{
+    "name": "QoptiQuest",
+    "description": "Options Trading Simulator",
+    "image": "apps/optiquest/icon.png",
+    "download": {
+      "Windows 64": "#",
+      "Windows 32": "#",
+      "Windows Arm 64": "#",
+      "Linux": "#",
+      "MacOS": "#"
+    },
+    "categories": [
+      "Finance",
+      "Productivity"
+    ]
+}
