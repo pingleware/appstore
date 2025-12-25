@@ -3,7 +3,8 @@
     "description": "A lightweight, open-source eCommerce framework that integrates Stripe for products, payments, and customer data, prioritizing security and simplicity.",
     "image": "apps/simplecommerce/icon.png",
     "download": {
-      "php": "https://github.com/pingleware/simplecommerce/releases/tag/v1.0.0"
+      "php": "https://github.com/pingleware/simplecommerce/releases/tag/v1.0.0",
+      "composer": "https://packagist.org/"
     },
     "categories": [
       "Shopping",

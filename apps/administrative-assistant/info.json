@@ -3,7 +3,9 @@
     "description": "The primary purpose of the Administrative Assistant application will be to maintain a thin, but highly effective upper management corporate tier, in order to support an appreciative workforce through employer-paid healthcare, pension, meals, etc..",
     "image": "apps/administrative-assistant/icon.png",
     "download": {
-        "linux": "https://snapcraft.io/administrative-assistant"
+        "Windows": "https://#",
+        "Mac": "https://#",
+        "Linux": "https://snapcraft.io/administrative-assistant"
     },
     "categories": [
         "Productivity",
