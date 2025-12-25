@@ -1,0 +1,13 @@
+{
+    "name": "Forex General",
+    "description": "A Forex trading for OANDA REST API",
+    "image": "apps/forex-general/icon.png",
+    "download": {
+        "windows": "https://#",
+        "mac": "https://#",
+        "linux": "https://#"
+    },
+    "categories": [
+        "Finance"
+    ]
+  }
