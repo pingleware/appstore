@@ -3,9 +3,9 @@
     "description": "Robot Journalist generates news stories from text using TF-IDF, Ollama AI, and outputs JSON, MP3, and MP4 formats.",
     "image": "apps/robot-journalist/icon.png",
     "download": {
-      "Windows 64": "https://github.com/pingleware/appstore/releases/tag/v1.0.0",
-      "Windows 32": "https://github.com/pingleware/appstore/releases/tag/v1.0.0",
-      "Windows Arm 64": "https://github.com/pingleware/appstore/releases/tag/v1.0.0"
+      "Windows": "https://#",
+      "Mac": "https://#",
+      "Linux": "https://#"
     },
     "categories": [
       "News",
