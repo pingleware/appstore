@@ -1,7 +1,7 @@
 # A GITHUB-based App Store
 Creating an **app store on a GitHub Page** can be a great way to showcase and distribute your apps or projects. Here's a step-by-step plan to build a simple, sleek GitHub Pages-based app store using HTML, CSS, and optional JavaScript for interactivity.
 
-To view the appstore, visit [appstore](https://pingleware.github.io/appstore/).
+To view the appstore, visit [appstore](http://appstore.pingleware.work/)).
 
 ---
 
