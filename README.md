@@ -146,3 +146,5 @@ apps.forEach(app => {
 2. Visit your GitHub Page URL (usually `https://<username>.github.io/<repo>/`)
 
 ---
+
+# Release
